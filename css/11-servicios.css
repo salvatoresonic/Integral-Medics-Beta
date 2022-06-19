@@ -1,0 +1,95 @@
+.servicios__header{
+    width: 50%;
+    /* height: 300px; */
+    background-image: url("../img/servicios/medicina-servicios.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+    position: relative;
+    object-fit: fill;
+    margin-left: 6%;
+    margin-top: 3rem;
+   }
+
+  
+
+.servicios__titulo{
+    
+    color: rgb(248 244 244);
+    font-weight: 700;
+    font-size: 1.75rem;
+    font-family: var(--montserrat);
+    text-transform: uppercase;
+    text-align: left;
+    padding: 1rem;
+    padding-left: 3rem;
+    background: rgba(105, 15, 152, 0.605);
+
+}
+
+.planes {
+    background:linear-gradient(180deg,white, var(--background-azul-claro), white) ;
+    
+}
+
+#servicios__header{
+    margin-left: 2.5rem;
+    
+}
+#servicios__titulo{
+    margin-left: 4.5rem;
+    
+}
+.servicios__conte{
+    display: flex;
+background: linear-gradient(180deg,white, var(--azul-claro), var(--background-azul-claro), white);
+padding-top: 4rem;
+padding-left: 6rem;
+padding-right: 6rem;
+padding-bottom: 4rem;
+align-items: center;
+}
+
+
+
+
+/* Aquí empieza el codigo para las tarjetas de los servicios */
+
+.tarjetas__img{
+    width: 100%;
+    height: 160px;
+    padding-top: 0em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    box-shadow: 12px 11px 21px -6px rgba(97,95,95,0.74);
+    
+    
+}
+
+.tarjetas__boton__servicios {
+    font-size: 1rem;
+    font-weight: 500;
+    width: 100%;
+    align-self: center;
+    /* padding: .75rem 2rem; */
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+
+    text-align: left;
+    display: block;
+    
+    max-width: 350px;
+    box-sizing: border-box;
+    /* padding: 1rem 2rem; */
+    /* border: .5px solid var(--planes-card-ultra); */
+    border-radius: 5px;
+}
+
+
+@media screen and (max-width: 380px) {
+    .servicios__header{
+        width: 100%;
+    }
+    #servicios__header{
+        margin: 0rem;
+    }
+}

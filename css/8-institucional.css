@@ -1,0 +1,117 @@
+.institucional {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: var(--fuente-ceniza-oscuro);
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    background:linear-gradient(180deg, white, var(--azul-claro),white) ;
+
+}
+
+.institucional__titulo {
+    color: var(--fuente-rosa);
+    font-weight: 700;
+    font-size: 1.75rem;
+    font-family: var(--montserrat);
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.institucional__descripcion {
+    color: var(--fuente-rosa);
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.institucional__direccion {
+    font-size: 1.2rem;
+    line-height: 1.5;
+    margin-bottom: 2rem;
+    font-weight: 400;
+}
+
+.institucional__contacto {
+    font-size: 1.2rem;
+    line-height: 1.8;
+
+    margin-top: 2rem;
+}
+
+.institucional__contacto-telefono{
+    line-height: normal;
+}
+
+.institucional__contacto-email{
+    color: var(--fuente-ceniza-oscuro);
+    text-decoration: none;
+    display: block;
+}
+
+.institucional__mapa{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+    border-radius: 1em;
+}
+
+.fa-brands{
+    color: var(--fuente-rosa);
+    
+}
+
+
+@media screen and (max-width: 380px) {
+    .institucional__direccion{
+        font-size: 1rem;
+    }
+    
+    .institucional__contacto-telefono, 
+    .institucional__contacto-email{
+        font-size: 1rem;
+    }
+
+    .institucional__mapa{
+        width: 100%;
+        height: 300px;
+    }
+
+
+}
+
+
+@media screen and (min-width: 768px){
+    .institucional__contacto-email{
+        display: inline-block;
+    }
+
+
+}
+
+@media screen and (max-width: 720px){
+    
+    .institucional__mapa{
+        max-width: 100%
+    }
+    
+
+}
+
+
+@media screen and (min-width: 1024px) {
+    .institucional__contenido {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        text-align: left;
+        align-items: center;
+        
+    }
+
+    .institucional__contacto-email {
+        display: block;
+    }
+    
+    
+   
+}

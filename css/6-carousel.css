@@ -1,0 +1,119 @@
+.carousel{
+    background:linear-gradient(180deg,var(--azul-claro),  white, var(--azul-claro)) 
+}
+
+
+.carousel__contenedor{
+    position: relative;     
+}
+
+.carousel__titulo{
+    color: var(--fuente-rosa);
+    /* text-shadow: 5px 2px 2px rgba(105,15,142,0.38); */
+    
+    font-size: 1.75rem;
+    font-family: var(--montserrat) ;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 2rem;
+    padding-top: 2rem;
+    /* text-shadow: 7px 3px 6px rgba(105,15,142,0.47); */
+}
+
+.carousel__descrip{
+    
+    font-size: 1.2rem;
+    text-align: center;
+    line-height: 20px;
+    margin: 0 auto 1rem;
+    padding: 0rem 5rem 0rem 5rem;
+    color: var(--fuente-ceniza-oscuro);
+}
+
+.carousel__anterior,
+.carousel__siguiente{
+    position: absolute;
+    display: block;
+    width: 30px;
+    height: 30px;
+    border: none;
+    top: calc(55% - 1px);
+    cursor: pointer;
+    line-height: 30px;
+    text-align: center;
+    border-radius: 50%;
+    /* background: transparent; */
+    color: var(--fuente-ceniza-claro);
+    opacity: 80% ;
+}
+
+.carousel__anterior:hover,
+.carousel__siguiente:hover{
+
+    opacity: 100%;
+    transition: .4s;
+    color: white;
+    background-color: var(--background-rosa-claro);
+    /* border: solid  .2px var(--fuente-ceniza-claro); */
+}
+
+.carousel__anterior{
+    left: 50px;
+}
+
+.carousel__siguiente{
+    right: 50px;
+}
+
+.carousel__foto{
+    height: 21rem;
+    width: 15rem;
+    border-radius: 11%;
+    box-shadow: 10px 10px 21px -3px rgba(97,95,95,0.59);
+}
+
+
+.carousel__elemento{
+    text-align: center;
+    margin: 2rem 0rem 2rem 0rem;
+    padding: .5rem 0rem 0rem .0rem;
+    opacity: 100%;
+    border-radius: 10%;
+    
+    
+}
+
+.carousel__elemento:hover{
+    transform: scale(1.09);
+    transition: .8s;
+    /* box-shadow: 0px 0px 10px 2px var(--fuente-rosa); */
+    transition: .5s ease;
+    filter: none;
+    
+    
+}
+
+.carousel__indicadores .glider-dot:hover{
+    background: var(--fuente-rosa);
+    transition: .8s;
+
+}
+
+
+@media screen and (max-width: 380px) {
+    .carousel__descrip{
+        font-size: 1rem;
+        padding: 0rem 1rem 0rem 1rem;
+        
+    }
+
+    .carousel__siguiente{
+        right: 30px;
+
+    }
+    .carousel__anterior{
+        left: 30px;
+    }
+    
+}

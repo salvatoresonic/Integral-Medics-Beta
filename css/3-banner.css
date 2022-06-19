@@ -1,0 +1,22 @@
+.banner__img{
+    width: 100%;
+    border-bottom: 0px solid transparent;
+    border-top: 0px solid transparent;
+    /* position: absolute;  */ /* quizá con esto puedo quitarla linea de abajo del banner*/
+}
+
+.banner__img__quienes{
+    width: 100%;
+    border-bottom: 0px solid transparent;
+    border-top: 0px solid transparent;
+    /* position: absolute;  */ /* quizá con esto puedo quitarla linea de abajo del banner*/
+}
+
+
+@media screen and (min-width: 1024px) {
+       
+    /* .banner__img__quienes {
+        padding-top: 0rem;
+    } */
+
+}
