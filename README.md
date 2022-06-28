@@ -1,3 +1,3 @@
-# Proyecto Apeperia
+# Proyecto Integral Medics
 
-Archivos iniciales del proyecto para Apeperia del curso "Layouts Responsivos: Trabajando con layouts mobile", de Alura LATAM.
+Archivos iniciales del proyecto para Integral Medics, pagina web par aofrecer los servicios médicos integrales
